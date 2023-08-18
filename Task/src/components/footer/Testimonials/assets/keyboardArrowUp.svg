@@ -1,0 +1,10 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Slider">
+<mask id="mask0_1462_810" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+<rect id="Text input" width="24" height="24" transform="matrix(1 0 0 -1 0 24.7061)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1462_810)">
+<path id="keyboard_arrow_down" d="M12 9.30801L6 15.308L7.4 16.708L12 12.108L16.6 16.708L18 15.308L12 9.30801Z" fill="#4D4D4D"/>
+</g>
+</g>
+</svg>

@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import  Testimonials from './components/footer/Testimonials/Testimonial'
 
 function App() {
   return(
     <>
-    <div> paragraph</div></>
+    <Testimonials/>
+    </>
   )
 }
 
-export default App
+export default App;

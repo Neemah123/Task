@@ -1,3 +1,178 @@
-.background{
-    background-color: green;
+.learners-container {
+    margin: 2rem auto;
+    text-align: center;
+    color: #4D4D4D;
 }
+    
+
+
+.top {
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.carousel-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* margin: 3rem 0; */
+
+}
+
+.card-button {
+    background: #F9FAFF;
+    width: 6rem;
+    /* height: 2rem; */
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    transform: scale(1.1);
+}
+
+.card-button img {
+    position: absolute;
+    width: 1.5rem;
+    height: 2rem;
+}
+
+.react-stacked-center-carousel {
+    overflow-y: hidden !important;
+    overflow-x: visible;
+    display: flex;
+    align-items: center;
+    height: 90vh !important;
+}
+
+.card-card {
+    transition: all 300ms ease;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+    opacity: .5;
+}
+
+.card-card:hover {
+    transform: scale(1.05);
+    opacity: .7;
+}
+
+.react-stacked-center-carousel-slide-0 .card-card {
+    cursor: default;
+    opacity: 1;
+}
+
+.react-stacked-center-carousel-slide-0 .card-card:hover {
+    transform: none;
+}
+
+.card-carrier {
+    margin: 0 auto;
+    background: transparent !important;
+    border: none;
+    width: 90%;
+}
+
+.card-card .cover {
+    position: absolute;
+    transition: opacity 300ms ease;
+}
+
+.react-stacked-center-carousel-slide-0 .card-card .cover {
+    transition: opacity 300ms ease, z-index 0ms 300ms;
+}
+
+.card-card .description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    align-items: center;
+}
+
+.card-card .description>p {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.card-card .description>h3 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+
+@media screen and (max-width:540px) {
+    body {
+        overflow-x: hidden
+    }
+
+    .card-card {
+        transition: all 300ms ease;
+        cursor: pointer;
+        margin-left: 20%;
+        width: 60%;
+        border-radius: 3px;
+        border: #08516B 2px solid;
+        height: 45vh;
+        position: relative;
+        background-color: #ffffff;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.05);
+    }
+
+
+    .card .testimonial-left-button {
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        background-color: #3CBEEC;
+        z-index: 4;
+    }
+
+
+
+
+    .card .testimonial-right-button {
+        position: absolute;
+        top: 45%;
+        left: 90%;
+        box-shadow: none;
+        background-color: #3CBEEC;
+        z-index: 4;
+    }
+}
+
+
+
+
+@media screen and (min-width:765px) and (max-width:992px) {
+
+
+    .card .testimonial-left-button {
+        position: fixed;
+        top: 25vh;
+        left: 17%;
+        background-color: red;
+        z-index: 4;
+    }
+
+
+
+
+    .card .testimonial-right-button {
+        position: fixed;
+        top: 25%;
+        left: 77%;
+        box-shadow: none;
+        background-color: #3CBEEC;
+        z-index: 4;
+    }
+}
+        
+
