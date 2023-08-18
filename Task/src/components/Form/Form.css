@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  height: 100vh;
+  background-color: #f2f1f6;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  background-color: #151515;
+  margin: 0 auto;
+  border-radius: 1px 30px 3px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid green; */
+  max-width: 450px;
+  max-height: 450px;
+  padding: 30px;
+  gap: 20px;
+}
+form label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#form .errors {
+  margin-top: 5px;
+  margin-left: 50px;
+  /* display: none; */
+}
+
+form input {
+  border: none;
+  outline: none;
+  padding: 14px;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 18px;
+}
+form .name input,
+form .address input {
+  width: 100%;
+}
+form .phone label input {
+  /* flex: 1; */
+  width: 60%;
+}
+
+form select {
+  /* appearance: none; */
+  outline: none;
+  outline: none;
+  width: 30%;
+  height: 40px;
+  border-radius: 18px;
+  text-align: center;
+  border-top: black;
+  padding: 12px;
+}
+
+select option {
+  width: 8px;
+}
+
+form .city {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+form .city input {
+  width: 40%;
+}
+
+form #states {
+  width: 30%;
+}
+
+.city #zip {
+  width: 25%;
+}
+
+form .buttons {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-top: 10px;
+  height: 40px;
+  width: 47%;
+  border-radius: 18px;
+  border: 1px solid white;
+  color: #ffff;
+  background-color: #151515;
+  cursor: pointer;
+}
+
+#proceed {
+  background-color: #01d959;
+}
