@@ -1,0 +1,140 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-size: 1rem;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #283b8b;
+}
+
+.buttonlink {
+  text-decoration: none;
+  color: #283b8b;
+}
+
+.link:hover {
+  border-bottom: 2px solid #283b8b;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.navbutton {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 2rem;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #e2dcc8;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #283b8b;
+   
+  }
+
+  .link:hover {
+    border-bottom: 2px solid #283b8b;
+  }
+
+  .logo {
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    color: #283b8b;
+
+  }
+
+  .hamburger {
+    margin-top: 2rem;
+    border: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transform: translateY(-50%);
+  }
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+
+  .mobiletop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 70%;
+  }
+
+  .mobilebottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+  }
+  .navbuttonmob {
+    margin-top: 0.6rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #e2dcc8;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    width: 80%;
+    margin-left: 2rem;
+  }
+}
